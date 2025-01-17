@@ -377,22 +377,22 @@ jobs:
             https://github.com/kiwibrowser/src.next/releases
 
       - name: Downloading artifact (arm)
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: apk-arm
 
       - name: Downloading artifact (arm64)
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: apk-arm64
 
       - name: Downloading artifact (x86)
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: apk-x86
 
       - name: Downloading artifact (x64)
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: apk-x64
 
